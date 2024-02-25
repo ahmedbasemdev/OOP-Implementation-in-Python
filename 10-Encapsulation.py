@@ -13,6 +13,7 @@ once you encapsulated a variable you have to create an access point :
 
 class Student:
     def __init__(self, name="ahmed Basem", marks=50):
+        # If a variable is prefixed by a single double underscore , variable is private
         self.__name = name
         self.__marks = marks
 
